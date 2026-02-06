@@ -71,6 +71,7 @@ h1 {
     text-align: center;
     padding: 10px 75px 10px 75px;
     display: block;
+    border-radius: 6px;
 }
 
 .full-image {
@@ -102,10 +103,46 @@ footer {
 
 aside{
     position: fixed;
-    right: 80px;
+    right: 40px;
     background-color: #850AE5;
     border-radius: 15px;
     width: 100px;
     height: 150px;
 }
 
+.nav-link{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-link:hover{
+    background-color: blue;
+    color: aqua;
+}
+
+.nav-link:focus{
+    background-color: lightblue;
+    color: blue;
+}
+
+.button:hover{
+    background-color: #850AE5;
+    color: blue;
+}
+
+.button:focus{
+    background-color: #baf800;
+    color: rgb(255, 0, 0)
+}
+
+.article-but:focus{
+    background: lightblue;
+    color: black;
+}
+
+.article-but:hover{
+    background-color: #850AE5;
+    color: #baf800;
+}
